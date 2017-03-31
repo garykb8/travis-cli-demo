@@ -13,7 +13,7 @@ notifications:
     on_failure: always
 
 script: 
-  coverage run --source=travis-ci-demo python app.py
+  coverage run --source=travis-ci-demo app.py
 
 after_success:
   coveralls
