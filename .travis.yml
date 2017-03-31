@@ -1,0 +1,12 @@
+language: python
+python:
+    - "2.7"
+
+notifications:
+  email:
+    recipients:
+      - garykb8@gmail.com
+    on_success: always
+    on_failure: always
+
+script: python app.py
